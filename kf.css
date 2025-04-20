@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out;
+    background-image: url('kf4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+body:hover {
+    background-color: #fff;
+}
+
+h1 {
+    color: #e5edec;
+    transition: color 0.5s ease-in-out;
+}
+
+h1:hover {
+    color: #62ebd2;
+}
+
+.content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.content:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.subpoints {
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+p, ul {
+    transition: opacity 0.5s ease-in-out;
+}
+
+p:hover, ul:hover {
+    opacity: 0.8;
+}
